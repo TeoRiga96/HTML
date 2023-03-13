@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Lesson</title>
+  </head>
+  <body>
+   <form>
+      <label for="form-name">Nome:</label>
+      <input type="text" name="name" 
+        id="form-name" 
+        maxlength="20" required 
+        autofocus 
+        pattern="[A-Za-z]+">
+      
+      <label for="form-surname">Cognome:</label>
+      <input type="text" name="surname" 
+        id="form-surname" 
+        maxlength="20" 
+      required pattern="[A-Za-z]+">
+      <br>
+      <label for="form-email">Email:</label>
+      <input type="email" name="email" 
+        id="form-email" 
+        maxlength="20"
+        required>
+      <br>
+      <input type="checkbox" name="privacy" required>
+      <label for="privacy">Acconsenti il trattamento dei dati</label>
+      <br>
+      <input type="button" value="Contattaci">
+      <br>
+      <a href="start.html">torna all'articolo</a>
+    </form>
+  </body>
+</html>
