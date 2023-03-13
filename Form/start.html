@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div>
+      <label for="form-email">Email</label>
+      <input type="email" name="email" id="form-email" required autofocus>
+      <label for="form-pass">Password</label>
+      <input type="password" name="password" id="form-pass" required>
+    </div>
+    <hr>
+    <div>
+      <label for="form-name-surname">Name and Surname</label>
+      <input type="text" name="name-surname" id="form-name-surname" required>
+      <label for="form-birth-date">Date of birth</label>
+      <input type="date" name="birth-date" id="form-birth-date" required>
+      <label>Telephone number</label>
+      <input type="tel" name="tel" id="form-tel" required  maxlength="9" minlength="9" value="+39">
+    </div>
+    <hr>
+    <div>
+      <label for="form-plan">Chose your plan here:</label>
+      <select id="form-plan" name="plan" required>
+        <option value="100€/month">100€/month</option>
+        <option value="200€/month">200€/month</option>
+        <option value="300€/mon">300€/month</option>
+      </select>
+      <label for="form-proPlan">if you want Pro-plan click here:</label>
+      <input type="checkbox" name="pro-plan" id="form-proPlan">
+    </div>
+    <hr>
+    <div>
+      <label for="form-credit-card">Credit Card Number</label>
+      <input type="text" name="credit-card" id="form-credit-card" required maxlength="15">
+      <label for="form-cvc">CVC</label>
+      <input type="text" name="cvc" id="form-cvc" required minlength="3" maxlength="3">
+    </div>
+    <hr>
+    <label for="form-exp-date">Expiration date</label>
+        <input id="form-exp-date" name="date" type="date" required>
+        <label for="form-address">Address</label>
+        <input type="text" name="address" id="form-address" required>
+      </div>
+      <hr>
+      <button type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
